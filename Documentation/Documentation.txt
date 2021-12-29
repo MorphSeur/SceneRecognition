@@ -1,0 +1,43 @@
+Local Machine						
+
+opencv-python==4.2.0.34
+Pillow==7.1.2
+torch==1.5.0
+torchvision==0.6.0
+
+Remote Machine - DGX Server
+
+opencv-python==4.2.0.34
+Pillow==7.0.0
+torch==1.5.0
+torchvision==0.6.0a0+82fd1c8
+
+--------------------------------------------------------------------------------------------------------------
+
+conda create -p D:\..\..\_conda python==3.7.7
+pip install jupyterlab
+activate
+
+--------------------------------------------------------------------------------------------------------------
+
+conda info --envs
+
+conda remove -p C:\Users\Administrator\activityRecognition\_conda --all
+
+conda install pytorch torchvision cpuonly -c pytorch
+
+conda install -c conda-forge jupyter_highlight_selected_word
+
+jupyter nbextension enable jupyter_highlight_selected_word --py
+jupyter nbextension enable highlight_selected_word/main
+
+
+https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index
+
+https://gluon-cv.mxnet.io/build/examples_detection/train_ssd_advanced.html
+
+https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
+
+https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition
+
+https://github.com/CSAILVision/places365

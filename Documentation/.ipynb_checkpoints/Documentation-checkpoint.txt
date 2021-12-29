@@ -1,0 +1,10 @@
+Keras==2.0.0
+Tensorflow==1.14.0
+
+conda create -p D:\..\..\_conda python==3.7.7
+pip install jupyterlab
+activate
+
+conda info --envs
+
+https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index
